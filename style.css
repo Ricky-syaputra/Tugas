@@ -1,0 +1,39 @@
+
+        body {
+            background: linear-gradient(135deg, #eff1f2 30%, #29404a 100%);
+            color: #121212;
+        }
+
+        /* Box Shadow for Card */
+        .card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        /* Image Hover Animation */
+        .img-fluid {
+            transition: transform 0.3s ease;
+        }
+
+        .img-fluid:hover {
+            transform: scale(1.05);
+        }
+
+        /* Styling for Profile Image with Blue Background */
+        .profile-pic-container {
+            background-color: #7176db; /* Latar belakang biru */
+            color: #f8f9fa;
+            padding: 50px 0;
+            text-align: center;
+            max-width: 1200px; /* Lebar maksimum */
+            margin: 0 auto; /* Pusatkan kontainer */
+        }
+
+        .profile-pic-container img {
+            border-radius: 50%;
+        }
+    
